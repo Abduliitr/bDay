@@ -1,0 +1,29 @@
+.ca{
+    font-family: 'Lobster', cursive;
+}
+
+.main-pg{
+    padding: 20px;
+    background-image: url(../../img/paris.jpg);
+    background-size: cover; 
+}
+
+.main-pg h1{
+    background-color: papayawhip;
+    border-radius: 40%; 
+    padding: 5px;
+    margin: 5px;
+    margin-top: 16px;
+}
+
+.main-pg h2{
+    background-color: rgb(255, 142, 37);
+    border-radius: 30%;
+    padding: 6px; 
+}
+
+.main-pg img{
+    /* box-shadow:rgb(255, 136, 0) 2px 6px 4px 4px; */
+    box-shadow:rgb(255, 136, 0) 0 0 2px 6px;
+
+}
