@@ -35,14 +35,20 @@
 .hscroll{
 
     position: fixed;
-    top: 66px;
+    top: 74px;
     visibility: visible;
     display: flex;
     align-items: stretch;
-    height: 1.5px;
+    height: 2.5px;
     z-index: 100;
     width: 100%;
     
+}
+
+@media screen and (max-width: 543px) {
+    .hscroll{
+        top: 56px;
+    }
 }
 
 .filled{
