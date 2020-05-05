@@ -35,7 +35,7 @@
 .hscroll{
 
     position: fixed;
-    top: 74px;
+    top: 80px;
     visibility: visible;
     display: flex;
     align-items: stretch;
@@ -48,6 +48,12 @@
 @media screen and (max-width: 543px) {
     .hscroll{
         top: 56px;
+    }
+}
+
+@media screen and (min-width: 544px) and (max-width: 991px){
+    .hscroll{
+        top: 74px;
     }
 }
 
